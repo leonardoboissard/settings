@@ -1,0 +1,49 @@
+{
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    //font
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    //statusBar
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1A1A1A",
+        "statusBar.noFolderBackground": "#212121",
+        "statusBar.debuggingBackground": "#263238"
+    },
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "workbench.iconTheme": "material-icon-theme",
+    //fontStyle
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    //showDebugTabOff
+    "debug.openDebug": "neverOpen",
+    "explorer.compactFolders": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    //javaHome
+    "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "window.zoomLevel": 0,
+    "vsicons.dontShowNewVersionMessage": true,
+    "files.autoSave": "off",
+    "editor.formatOnSave": true,
+    "javascript.validate.enable": false,
+    //emmetJs
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
+}
